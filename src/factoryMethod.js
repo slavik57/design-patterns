@@ -1,6 +1,6 @@
+"use strict";
 // The video for this file:
 // https://youtu.be/n8dQWBhCTck
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Layer {
     constructor(map, name, shapes) {
