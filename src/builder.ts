@@ -11,9 +11,9 @@ export interface Pizza {
 }
 
 export class PizzaBuilder {
-  private numberOfSlices: number;
-  private isThin: boolean;
-  private doughType: DoughType;
+  private numberOfSlices: number | undefined;
+  private isThin: boolean | undefined;
+  private doughType: DoughType | undefined;
   private toppings: Topping[] = [];
 
   public setNumberOfSlices(numberOfSlices: number): PizzaBuilder {
